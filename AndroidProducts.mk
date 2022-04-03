@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_instantnoodle.mk
+    $(LOCAL_DIR)/arrow_instantnoodle.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_instantnoodle-user \
-    aosp_instantnoodle-userdebug \
-    aosp_instantnoodle-eng
+    arrow_instantnoodle-user \
+    arrow_instantnoodle-userdebug \
+    arrow_instantnoodle-eng
