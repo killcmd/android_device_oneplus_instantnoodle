@@ -1,0 +1,32 @@
+[
+    {
+        "remote": "gitlab",
+        "repository": "killcmd/Shoyu",
+        "target_path": "device/oneplus/sm8250-common",
+        "branch": "spark"
+    },
+    {
+        "remote": "github",
+        "repository": "killcmd/kernel_oneplus_sm8250",
+        "target_path": "kernel/oneplus/sm8250",
+        "branch": "12"
+    },
+	{
+        "remote": "github",
+        "repository": "killcmd/vendor_oneplus",
+        "target_path": "vendor/oneplus",
+        "branch": "12"
+    },
+	{
+        "remote": "gitlab",
+        "repository": "killcmd/vendor_oneplus_camera",
+        "target_path": "vendor/oneplus/camera",
+        "branch": "main"
+    },
+	{
+        "remote": "github",
+        "repository": "AOSP-11/prebuilts_clang_host_linux-x86_clang-r428724",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-r428724",
+        "branch": "11"
+    }
+]
