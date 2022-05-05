@@ -16,7 +16,7 @@
 #
 
 # Snack Packs Options
-SNACK := SOS
+SNACK := SPARK
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -39,9 +39,3 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := IN2013
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
-
-
-## Forcing mismatch in Recovery
-#PRODUCT_BUILD_PROP_OVERRIDES += \
-#    TARGET_DEVICE=OnePlus8 \
-#    TARGET_PRODUCT=OnePlus8_EEA
