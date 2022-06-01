@@ -26,7 +26,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-ramen
+    $(LOCAL_PATH)/overlay-oneplus
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
