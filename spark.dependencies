@@ -16,11 +16,5 @@
         "repository": "killcmd/vendor_oneplus",
         "target_path": "vendor/oneplus",
         "branch": "12"
-    },
-	{
-        "remote": "gitlab",
-        "repository": "killcmd/vendor_oneplus_camera",
-        "target_path": "vendor/oneplus/camera",
-        "branch": "main"
     }
 ]
