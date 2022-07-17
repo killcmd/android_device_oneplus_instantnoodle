@@ -1,0 +1,10 @@
+android_app_import {
+    name: "Lawnicons",
+    apk: "Lawnicons.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    system_ext_specific: true,
+}

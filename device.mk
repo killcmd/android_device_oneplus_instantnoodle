@@ -22,8 +22,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    EvolutionSettingsResTarget \
-    EvolutionSystemUIResTarget \
+    SparkSystemUIResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
