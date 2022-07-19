@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SparkSystemUIResTarget \
+	DerpSettingsResTarget \
+    OpusSystemUIResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
