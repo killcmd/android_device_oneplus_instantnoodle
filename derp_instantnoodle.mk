@@ -16,7 +16,7 @@
 #
 
 # Snack Packs Options
-SNACK := SPARK
+SNACK := DERP
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -26,13 +26,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
 # Inherit some common Snackss stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-EXTRA_UDFPS_ANIMATIONS := true
+
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := spark_instantnoodle
+PRODUCT_NAME := derp_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
