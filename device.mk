@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SparkSystemUIResTarget \
     OPlusFrameworksResTarget \
+    OPlusExtrasResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
