@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
 	DerpSettingsResTarget \
     OpusSystemUIResTarget \
     OPlusFrameworksResTarget \
+    OPlusExtrasResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
