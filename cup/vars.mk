@@ -14,6 +14,14 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
 endif
+ifeq ($(SAUCE),AEX)
+TARGET_USES_AOSP_RECOVERY := true
+WITH_GAPPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
+endif
+
 
 # General Included
 $(call inherit-product, device/oneplus/instantnoodle/cup/custom/custom.mk)

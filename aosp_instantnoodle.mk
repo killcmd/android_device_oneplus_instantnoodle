@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
 # Inherit some common 3rd Party stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
-SAUCE := ARROW
-PRODUCT_NAME := arrow_instantnoodle
+$(call inherit-product, vendor/aosp/config/common.mk)
+SAUCE := AEX
+PRODUCT_NAME := aosp_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
