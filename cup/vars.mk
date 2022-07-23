@@ -7,6 +7,13 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
 TARGET_BUILD_LAWNCHAIR := true
 endif
+ifeq ($(SAUCE),ARROW)
+ARROW_GAPPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
+endif
 
 # General Included
 $(call inherit-product, device/oneplus/instantnoodle/cup/custom/custom.mk)
