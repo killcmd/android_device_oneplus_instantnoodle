@@ -59,3 +59,6 @@ $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/instantnoodle/instantnoodle-vendor.mk)
+
+# KiLLCMD Folders
+$(call inherit-product, device/oneplus/instantnoodle/cup/vars.mk)
