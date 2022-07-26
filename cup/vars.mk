@@ -1,11 +1,17 @@
 ifeq ($(SAUCE),SPARK)
 WITH_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 SPARK_BUILD_TYPE := OFFICIAL
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
 TARGET_BUILD_LAWNCHAIR := false
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.spark.maintainer=killcmd\
+    ro.spark.device.name=OnePlus\
+    ro.spark.group.url=https://t.me/sparkos1plus8\
+    ro.spark.maintainer.username=i_used_to_be_cool
 endif
 ifeq ($(SAUCE),CHERISH)
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -27,7 +33,6 @@ TARGET_USES_BLUR := true
 TARGET_SUPPORTS_64_BIT_APPS := true
 EXTRA_FOD_ANIMATIONS := true
 WITH_GMS := true
-
 endif
 
 # General Included
