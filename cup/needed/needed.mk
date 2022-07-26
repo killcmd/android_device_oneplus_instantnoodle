@@ -1,4 +1,5 @@
 PRODUCT_PACKAGES += \
 DeviceSettings \
 GoogleCamera \
-OOSTouchGestures
+OOSTouchGestures \
+ih8sn
