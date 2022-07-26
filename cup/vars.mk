@@ -18,6 +18,17 @@ CHERISH_BUILD_TYPE=UNOFFICIAL
 PRODUCT_GENERIC_PROPERTIES += \
     ro.cherish.maintainer=killcmd
 endif
+ifeq ($(SAUCE),DERP)
+TARGET_FACE_UNLOCK_SUPPORTED := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_BLUR := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+EXTRA_FOD_ANIMATIONS := true
+WITH_GMS := true
+
+endif
 
 # General Included
 $(call inherit-product, device/oneplus/instantnoodle/cup/custom/custom.mk)

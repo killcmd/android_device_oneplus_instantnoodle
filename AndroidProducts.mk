@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_instantnoodle.mk
+    $(LOCAL_DIR)/derp_instantnoodle.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_instantnoodle-user \
-    cherish_instantnoodle-userdebug \
-    cherish_instantnoodle-eng
+    derp_instantnoodle-user \
+    derp_instantnoodle-userdebug \
+    derp_instantnoodle-eng
