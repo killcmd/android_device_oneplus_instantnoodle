@@ -8,11 +8,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
 TARGET_BUILD_LAWNCHAIR := false
 TARGET_OTA := false
-PRODUCT_GENERIC_PROPERTIES += \
-    ro.spark.maintainer=killcmd\
-    ro.spark.device.name=OnePlus\
-    ro.spark.group.url=https://t.me/sparkos1plus8\
-    ro.spark.maintainer.username=i_used_to_be_cool
+TARGET_SYSTEM_PROP += device/oneplus/instantnoodle/cup/spark.prop
 endif
 ifeq ($(SAUCE),CHERISH)
 TARGET_FACE_UNLOCK_SUPPORTED := true
