@@ -7,6 +7,7 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_ADAPTIVE_CHARGING := true
 TARGET_BUILD_LAWNCHAIR := false
+TARGET_OTA := false
 PRODUCT_GENERIC_PROPERTIES += \
     ro.spark.maintainer=killcmd\
     ro.spark.device.name=OnePlus\
