@@ -1,5 +1,5 @@
 PRODUCT_PACKAGES += \
-DeviceSettings \
 GoogleCamera \
-OOSTouchGestures \
+OPlusExtra \
+tri-state-key-calibrate \
 ih8sn
